@@ -25,13 +25,13 @@ ul li{
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: url("ii.jpeg");
+  background: url("E:\ALL FILES\ExcelR Final Project\LMS-Frontend\lms-frontend\src\Components\Assests\ii.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
 }
-.wrapper{
+#wrapper{
   display: flex;
   justify-content: center;
   align-items: center;

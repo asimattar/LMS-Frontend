@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './LoginSignup.css';
 
+
 const LoginSignup = () => {
     const [action, setAction] = useState("Login");
 
@@ -50,13 +51,6 @@ const LoginSignup = () => {
                 <div className="nav-menu-btn">
 
                     <i className="bx bx-menu" onClick={myMenuFunction}></i>
-                </div>
-                <div className="nav-menu" id="navMenu">
-                    <ul className='nav-links'>
-                        <li className='nav-item'><a href="#">Home</a></li>
-                        <li className='nav-item'><a href="#">About</a></li>
-                        <li className='nav-item'><a href="#">Contact Us</a></li>
-                    </ul>
                 </div>
                 <div className="nav-button">
                     <button className={`btn ${action === "Login" ? "white-btn" : ""}`} id="loginBtn">Sign In</button>

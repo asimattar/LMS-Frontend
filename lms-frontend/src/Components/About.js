@@ -1,8 +1,7 @@
-import { BrowserRouter as Router, Routes,Route,Link } from "react-router-dom";
+import React from "react"
 
 const About=()=>{
     return(
-        <Router>
             <div>
             <p>A robust Employee Leave Management System is a crucial component of any organization's human resources infrastructure. This system streamlines the process of requesting, approving, and tracking employee leave, providing numerous benefits for both employees and employers. Let's delve into the features and advantages of such a system.
 
@@ -65,6 +64,6 @@ As the organization grows, the system can easily scale to accommodate more emplo
 In conclusion, an Employee Leave Management System is a vital tool for modern businesses to efficiently handle leave requests, ensure compliance, and enhance employee satisfaction. By leveraging automation and providing transparency, organizations can streamline processes, reduce errors, and ultimately create a healthier work environment for all.
 </p>
 </div>
-</Router>
     )
 }
+export default About
